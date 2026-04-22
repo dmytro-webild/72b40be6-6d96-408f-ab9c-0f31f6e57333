@@ -33,25 +33,15 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Services",
-          id: "pricing",
-        },
+          name: "Services",          id: "pricing"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "About",          id: "about"},
         {
-          name: "Reviews",
-          id: "testimonials",
-        },
+          name: "Reviews",          id: "testimonials"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="International Barbers"
     />
@@ -60,66 +50,41 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboard
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Exeter’s Top-Rated Barbers – 4.9★ from 160+ Reviews"
       description="Fresh cuts, great prices, and a welcoming atmosphere. Your local favorite barbershop in the heart of Exeter."
       buttons={[
         {
-          text: "Call Now",
-          href: "tel:+447720846695",
-        },
+          text: "Call Now",          href: "tel:+447720846695"},
         {
-          text: "Book Appointment",
-          href: "#",
-        },
+          text: "Book Your Cut Now",          href: "#"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/master-hairdresser-prepares-face-shaving-barber-shop_613910-4252.jpg"
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/close-up-portrait-blond-bearded-male-dressed-black-leather-jacket_613910-11927.jpg",
-          alt: "Portrait of client one",
-        },
+          src: "http://img.b2bpic.net/free-photo/close-up-portrait-blond-bearded-male-dressed-black-leather-jacket_613910-11927.jpg",          alt: "Portrait of client one"},
         {
-          src: "http://img.b2bpic.net/free-photo/indian-stylish-man-black-traditional-clothes-with-white-scarf-posed-outdoor-sitting-bench_627829-12682.jpg",
-          alt: "Portrait of client two",
-        },
+          src: "http://img.b2bpic.net/free-photo/indian-stylish-man-black-traditional-clothes-with-white-scarf-posed-outdoor-sitting-bench_627829-12682.jpg",          alt: "Portrait of client two"},
         {
-          src: "http://img.b2bpic.net/free-photo/closeup-confident-young-man-with-blue-eyes_171337-20035.jpg",
-          alt: "Portrait of client three",
-        },
+          src: "http://img.b2bpic.net/free-photo/closeup-confident-young-man-with-blue-eyes_171337-20035.jpg",          alt: "Portrait of client three"},
         {
-          src: "http://img.b2bpic.net/free-photo/closeup-shot-fashionable-handsome-male-blue-classic-shirt_181624-29628.jpg",
-          alt: "Portrait of client four",
-        },
+          src: "http://img.b2bpic.net/free-photo/closeup-shot-fashionable-handsome-male-blue-classic-shirt_181624-29628.jpg",          alt: "Portrait of client four"},
         {
-          src: "http://img.b2bpic.net/free-photo/glad-topless-male-with-trendy-hairstyle-bristle-having-strong-body-builduing-posing-against-grey-wall-with-happy-expression-attractive-male-model-with-muscules-isolated-concrete-wall_176532-6405.jpg",
-          alt: "Portrait of client five",
-        },
+          src: "http://img.b2bpic.net/free-photo/glad-topless-male-with-trendy-hairstyle-bristle-having-strong-body-builduing-posing-against-grey-wall-with-happy-expression-attractive-male-model-with-muscules-isolated-concrete-wall_176532-6405.jpg",          alt: "Portrait of client five"},
       ]}
       avatarText="Join 160+ happy locals"
       marqueeItems={[
         {
-          type: "text",
-          text: "Precision Fades",
-        },
+          type: "text",          text: "Precision Fades"},
         {
-          type: "text",
-          text: "Hot Towel Shaves",
-        },
+          type: "text",          text: "Hot Towel Shaves"},
         {
-          type: "text",
-          text: "Student Discounts",
-        },
+          type: "text",          text: "Student Discounts"},
         {
-          type: "text",
-          text: "Expert Styling",
-        },
+          type: "text",          text: "Expert Styling"},
         {
-          type: "text",
-          text: "Community Focused",
-        },
+          type: "text",          text: "Community Focused"},
       ]}
     />
   </div>
@@ -131,19 +96,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Precision Cuts",
-          description: "Classic and modern styling by our expert team.",
-          icon: Scissors,
+          title: "Precision Cuts",          description: "Classic and modern styling by our expert team.",          icon: Scissors,
         },
         {
-          title: "Beard Grooming",
-          description: "Expert beard shaping and hot towel treatments.",
-          icon: Scissors,
+          title: "Beard Grooming",          description: "Expert beard shaping and hot towel treatments.",          icon: Scissors,
         },
         {
-          title: "Student Offers",
-          description: "Great value haircuts for students in Exeter.",
-          icon: GraduationCap,
+          title: "Student Offers",          description: "Great value haircuts for students in Exeter.",          icon: GraduationCap,
         },
       ]}
       title="Why International Barbers?"
@@ -158,40 +117,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Sarah Johnson",
-          handle: "@exeterstudent",
-          testimonial: "Top service, great atmosphere, and a perfect haircut.",
-          imageSrc: "http://img.b2bpic.net/free-photo/studio-portrait-blue-eyed-bearded-hipster-male-grey-background_613910-13829.jpg",
-        },
+          id: "1",          name: "Sarah Johnson",          handle: "@exeterstudent",          testimonial: "Top service, great atmosphere, and a perfect haircut.",          imageSrc: "http://img.b2bpic.net/free-photo/studio-portrait-blue-eyed-bearded-hipster-male-grey-background_613910-13829.jpg"},
         {
-          id: "2",
-          name: "Michael Chen",
-          handle: "@localpro",
-          testimonial: "Great staff and great prices. Highly recommend!",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-hairdresser-washing-man-s-hair_23-2150665396.jpg",
-        },
+          id: "2",          name: "Michael Chen",          handle: "@localpro",          testimonial: "Great staff and great prices. Highly recommend!",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-hairdresser-washing-man-s-hair_23-2150665396.jpg"},
         {
-          id: "3",
-          name: "Emily Rodriguez",
-          handle: "@exeterlocal",
-          testimonial: "Friendly barbers and amazing quality. My new regular spot.",
-          imageSrc: "http://img.b2bpic.net/free-photo/glad-bodybuilder-with-biceps-posing-topless-with-pleasant-smile-being-happy-spend-free-time-gym_176532-9327.jpg",
-        },
+          id: "3",          name: "Emily Rodriguez",          handle: "@exeterlocal",          testimonial: "Friendly barbers and amazing quality. My new regular spot.",          imageSrc: "http://img.b2bpic.net/free-photo/glad-bodybuilder-with-biceps-posing-topless-with-pleasant-smile-being-happy-spend-free-time-gym_176532-9327.jpg"},
         {
-          id: "4",
-          name: "David Kim",
-          handle: "@studentlife",
-          testimonial: "Best fade I've had in Exeter. Quick and affordable.",
-          imageSrc: "http://img.b2bpic.net/free-photo/european-brutal-man-with-beard-cut-barbershop_343596-4697.jpg",
-        },
+          id: "4",          name: "David Kim",          handle: "@studentlife",          testimonial: "Best fade I've had in Exeter. Quick and affordable.",          imageSrc: "http://img.b2bpic.net/free-photo/european-brutal-man-with-beard-cut-barbershop_343596-4697.jpg"},
         {
-          id: "5",
-          name: "James Wilson",
-          handle: "@regularcustomer",
-          testimonial: "Always a warm welcome. Neco and the team are fantastic.",
-          imageSrc: "http://img.b2bpic.net/free-photo/hairdresser-grooming-their-client_23-2149205876.jpg",
-        },
+          id: "5",          name: "James Wilson",          handle: "@regularcustomer",          testimonial: "Always a warm welcome. Neco and the team are fantastic.",          imageSrc: "http://img.b2bpic.net/free-photo/hairdresser-grooming-their-client_23-2149205876.jpg"},
       ]}
       title="What Our Customers Say"
       description="Rated 4.9★ with over 162 happy customers."
@@ -218,37 +152,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "standard",
-          badge: "Popular",
-          price: "£18",
-          subtitle: "Precision Haircut",
-          features: [
-            "Classic Style",
-            "Consultation",
-            "Hot Towel Finish",
-          ],
+          id: "standard",          badge: "Popular",          price: "£18",          subtitle: "Precision Haircut",          features: [
+            "Classic Style",            "Consultation",            "Hot Towel Finish"],
         },
         {
-          id: "beard",
-          badge: "Essential",
-          price: "£12",
-          subtitle: "Beard Trim",
-          features: [
-            "Beard Line-up",
-            "Moisturizing",
-            "Tapering",
-          ],
+          id: "beard",          badge: "Essential",          price: "£12",          subtitle: "Beard Trim",          features: [
+            "Beard Line-up",            "Moisturizing",            "Tapering"],
         },
         {
-          id: "student",
-          badge: "Value",
-          price: "£15",
-          subtitle: "Student Cut",
-          features: [
-            "Valid ID Required",
-            "Expert Styling",
-            "Standard Cut",
-          ],
+          id: "student",          badge: "Value",          price: "£15",          subtitle: "Student Cut",          features: [
+            "Valid ID Required",            "Expert Styling",            "Standard Cut"],
         },
       ]}
       title="Transparent Pricing"
@@ -263,31 +176,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "162+",
-          title: "Customer Reviews",
-          items: [
-            "Verified Ratings",
-            "4.9 Average Score",
-          ],
+          id: "m1",          value: "162+",          title: "Customer Reviews",          items: [
+            "Verified Ratings",            "4.9 Average Score"],
         },
         {
-          id: "m2",
-          value: "5+",
-          title: "Professional Barbers",
-          items: [
-            "Expert Team",
-            "Years Experience",
-          ],
+          id: "m2",          value: "5+",          title: "Professional Barbers",          items: [
+            "Expert Team",            "Years Experience"],
         },
         {
-          id: "m3",
-          value: "7days",
-          title: "Availability",
-          items: [
-            "Open Daily",
-            "Flexible Booking",
-          ],
+          id: "m3",          value: "7days",          title: "Availability",          items: [
+            "Open Daily",            "Flexible Booking"],
         },
       ]}
       title="Our Impact in Exeter"
@@ -300,20 +198,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "Do you accept walk-ins?",
-          content: "Yes, we always welcome walk-ins! Feel free to stop by.",
-        },
+          id: "q1",          title: "Do you accept walk-ins?",          content: "Yes, we always welcome walk-ins! Feel free to stop by."},
         {
-          id: "q2",
-          title: "Can I book in advance?",
-          content: "Yes, you can book online or via phone.",
-        },
+          id: "q2",          title: "Can I book in advance?",          content: "Yes, you can book online or via phone."},
         {
-          id: "q3",
-          title: "Is your shop accessible?",
-          content: "Yes, we are wheelchair accessible and offer autism-friendly service.",
-        },
+          id: "q3",          title: "Is your shop accessible?",          content: "Yes, we are wheelchair accessible and offer autism-friendly service."},
       ]}
       sideTitle="Common Questions"
       sideDescription="Everything you need to know about International Barbers."
@@ -325,18 +214,13 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       text="Walk in today or book your next fresh trim."
       buttons={[
         {
-          text: "Call Now",
-          href: "tel:+447720846695",
-        },
+          text: "Call Now",          href: "tel:+447720846695"},
         {
-          text: "Book Online",
-          href: "#",
-        },
+          text: "Book Online",          href: "#"},
       ]}
     />
   </div>
@@ -346,30 +230,21 @@ export default function LandingPage() {
       logoText="International Barbers"
       columns={[
         {
-          title: "Visit Us",
-          items: [
+          title: "Visit Us",          items: [
             {
-              label: "16 Blackboy Rd, Exeter EX4 6SW",
-              href: "#",
-            },
+              label: "16 Blackboy Rd, Exeter EX4 6SW",              href: "#"},
           ],
         },
         {
-          title: "Contact",
-          items: [
+          title: "Contact",          items: [
             {
-              label: "+44 7720 846695",
-              href: "tel:+447720846695",
-            },
+              label: "+44 7720 846695",              href: "tel:+447720846695"},
           ],
         },
         {
-          title: "Opening Hours",
-          items: [
+          title: "Opening Hours",          items: [
             {
-              label: "Mon-Sat: 9am-6pm",
-              href: "#",
-            },
+              label: "Mon-Sat: 9am-6pm",              href: "#"},
           ],
         },
       ]}
